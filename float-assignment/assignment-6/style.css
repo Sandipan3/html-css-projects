@@ -1,0 +1,35 @@
+.parent {
+    width: 300px;
+    height: auto;
+    margin: 50px 30px;
+    background: orangered;
+    border: 2px solid black;
+
+    /* solution 1:
+    
+    display: flow-root;
+     (must be done in parent;
+     observation: parent height must be auto) */
+}
+
+/*solution 2 
+
+.parent::after {
+    content: '';
+    clear: both;
+    display: block;
+    (must be done in parent
+    observation: parent height must be auto)
+}*/
+
+.right {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    background-color: aquamarine;
+    margin: 10px;
+
+}
