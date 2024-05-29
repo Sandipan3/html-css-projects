@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <p> LOGO</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">VIDEOS</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="s1">
+            <p id="s1p1">
+                SIMPLE AND ONE PAGE WEBSITE
+            </p>
+            <p id="s1p2">
+                USING HTML ONLY (NO CSS USED)
+            </p>
+        </section>
+
+        <section id="s2">
+            <ul>
+                <li><a id="s2a1" href="#">GET STARTED</a></li>
+                <li><a id="s2a2" href="#">SUBSCRIBE US</a></li>
+            </ul>
+        </section>
+        <section id="s3">
+            <header>
+                <p>PORTFOLIO</p>
+            </header>
+            <main id="s3main">
+                <div><img class="image" src="/img/img1.jpeg" alt=""></div>
+                <div><img class="image" src="/img/img2.jpeg" alt=""></div>
+                <div><img class="image" src="/img/img3.jpeg" alt=""></div>
+                <div><img class="image" src="/img/img4.jpeg" alt=""></div>
+                <div><img class="image" src="/img/img5.jpeg" alt=""></div>
+                <div><img class="image" src="/img/img6.jpeg" alt=""></div>
+            </main>
+            <footer class="foot">
+                <a href="#">LOAD MORE</a>
+            </footer>
+        </section>
+        <section id="s4">
+            <header>
+                <p>CONTACT US</p>
+            </header>
+            <main id="s4main">
+                <form action="">
+
+                    <div id="div1">
+                        <label for="fname"></label>
+                        <input type="text" id="fname" name="fname" placeholder="First Name" required>
+
+                        <label for="lname"></label>
+                        <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+                    </div>
+
+                    <div id="div2">
+                        <label for="email"></label>
+                        <input type="text" id="email" name="email" placeholder="Email" required>
+
+                        <label for="subject"></label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+
+
+                    <div id="div3">
+                        <label for="textarea"></label>
+                        <textarea id="textarea" name="textarea" placeholder="Enter Message" required></textarea>
+                    </div>
+
+                    <div id="div4">
+                        <label for="submit"></label>
+                        <input type="submit" name="submit" value="SEND">
+                    </div>
+                </form>
+            </main>
+        </section>
+    </main>
+
+    <footer id="footer">
+
+        <hr>
+        <div class="footer-container">
+            <div class="footbox1">
+                <p>LOGO</p>
+            </div>
+            <div class="footbox2">
+                <p>©2023 Raha Technologies</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
