@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact-us.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li id="name">
+                <p>HRT</p>
+            </li>
+            <li><a href="/Home/home.html" class="nav-link">Home</a></li>
+            <li><a href="/About/about.html" class="nav-link">About</a></li>
+            <li><a href="/contact-us/contact-us.html" class="contact">Contact</a></li>
+            <li class="blank"> </li>
+        </ul>
+    </nav>
+    <header>
+        <h1><span id="contact">Contact </span>Us</h1>
+        <p>Fill up the form below to contact us.</p>
+    </header>
+    <main>
+        <section id="first">
+            <form action="">
+                <div>
+                    <label for="fname">Name</label>
+                    <input type="text" name="fname" id="fname" required>
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" required></textarea>
+                </div>
+                <div>
+                    <label for="submit"></label>
+                    <input type="submit" name="submit" id="submit">
+                </div>
+            </form>
+        </section>
+        <section id="second">
+            <article id="sleft">
+                <i class="fa-solid fa-hotel"></i>
+                <h3>Location</h3>
+                <p>50 Main St, Kolkata-700001 </p>
+            </article>
+            <article id="smiddle">
+                <i class="fa-solid fa-phone-flip"></i>
+                <h3>Phone Number</h3>
+                <p>(617)555-5555</p>
+            </article>
+            <article id="sright">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email Address</h3>
+                <p>frontdesk@hotelraha.co</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Hotel RAHA © 2023, All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>

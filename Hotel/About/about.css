@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#navbar {
+    background-color: #333333;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+
+}
+
+#navbar .nav-link {
+    text-decoration: none;
+    margin-right: 5vw;
+    color: white;
+}
+
+#navbar .contact {
+    margin-right: 20vw;
+    text-decoration: none;
+    color: white;
+}
+
+
+#navbar a:hover {
+    color: #F6C791;
+
+}
+
+#navbar ul li {
+    width: 10%;
+    height: auto;
+}
+
+#name {
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+}
+header{
+    transform: translateX(24%) ;
+    width: 100%;
+    height: 35vh;
+    padding: 1dvw;
+}
+
+header #left{
+    float: left;
+    width: 30%;
+    margin: 1vh 0;
+}
+.color{
+    color: #F6C791;
+}
+header #left #heading{
+    font-size: 1.5rem;
+    font-weight: bold
+}
+
+header #left .hbody p{
+    margin: 1vh 0;
+    font-size: 1rem;
+}
+
+
+header #right img{
+    float: left;
+    border: 2px solid red;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 20%;
+}
+
+main #first{
+    width: 100%;
+    height:58vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-image: url(./test-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main #first div p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+main #first .article{
+    width: 60%;
+    background-color: #F6C791;
+    margin: 1vh 0;
+    padding: 1vh;
+}
+main #first .article img{
+    width: 7%;
+   float: left;
+   border: 2px solid #F6C791;
+   border-radius: 50%;
+   margin: 0 1vw;
+}
+main #first .article p{
+    font-size: 1.2rem;
+}
+
+
+footer {
+    height: 5vh;
+    background-color: #333333;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 0.5rem;
+}
