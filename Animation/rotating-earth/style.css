@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+.earth {
+    width: 500px;
+    height: 500px;
+    background: url(./image.jpg);
+    background-repeat: repeat-x;
+    animation: rotate 5s linear infinite
+}
+
+
+
+@keyframes rotate {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 1000px;
+    }
+}
